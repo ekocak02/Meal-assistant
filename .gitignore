@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+meal/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Veri ve Model Dosyaları
+data/raw/*
+data/processed/*
+data/external/*
+models/
+*.plan
+*.onnx
+
+# IDE / Editör Dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+
+# Hassas Bilgiler
+.env
+*.env
